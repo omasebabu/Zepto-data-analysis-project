@@ -1,4 +1,4 @@
-#🛒 Zepto E-commerce SQL Data Analyst Portfolio Project  
+# 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project  
 ---
 This is a **complete, real-world data analyst portfolio project** based on an e-commerce inventory dataset scraped from **Zepto**, one of India’s fastest-growing quick-commerce startups.The project simulates real analyst workflows, from **raw data exploration to business-focused data analysis
 ** This project is perfect for:
@@ -7,7 +7,7 @@ This is a **complete, real-world data analyst portfolio project** based on an e-
 📚 Anyone learning SQL hands-on
 💼 Preparing for interviews in retail, e-commerce, or product analytics
 
-##📌 Project Overview
+## 📌 Project Overview
 ---
 The goal of this project is to simulate how real data analysts work in **e-commerce or retail companies** using SQL to:
 
@@ -17,7 +17,7 @@ The goal of this project is to simulate how real data analysts work in **e-comme
 ✅ Implement **Data Cleaning** to fix invalid entries and handle inconsistent pricing
 ✅ Write **business-focused SQL queries** to generate meaningful insights
 
-##📁 Dataset Overview
+## 📁 Dataset Overview
 ---
 The dataset was sourced from **Kaggle** and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
@@ -37,7 +37,7 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 * **quantity** – Number of units per package
 
 
-##1.🔧 Project Workflow
+## 1.🔧 Project Workflow
 Here’s a step-by-step breakdown of what we do in this project:
 ### 1️ Database & Table Creation
 We start by creating a SQL table with appropriate data types:
@@ -59,7 +59,7 @@ CREATE TABLE zepto (
 ```
 
 
-##2️.Data Import
+## 2️.Data Import
 
 * The dataset was imported using **MySQL Workbench's** Table Data Import Wizard.
 
@@ -77,7 +77,7 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 ⚠️ Faced encoding issues (UTF-8 error), which were fixed by saving the CSV file using CSV **UTF-8 format**
 
 
-##3.🔍 Data Exploration
+## 3.🔍 Data Exploration
 
 *Counted the total number of records in the dataset
 
@@ -92,7 +92,7 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 *Detected products present multiple times, representing different SKUs
 
 
-##4.🧹 Data Cleaning
+## 4.🧹 Data Cleaning
 
 *Identified and removed rows where MRP or discounted selling price was zero.
 
@@ -100,7 +100,7 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 
 ---
 
-##5.📊 Business Insights
+## 5.📊 Business Insights
 
 *Generated insights using SQL queries:
 
